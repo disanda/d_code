@@ -14,20 +14,20 @@ input_size = 300
 batch_size = 32
 hidden_size = 128
 
-# print('------------- Define the RNN Cell --------------------')
-# rnn_cell = nn.RNNCell(input_size, hidden_size, bias=True, nonlinearity='tanh', device=None, dtype=None)
+print('------------- Define the RNN Cell --------------------')
+rnn_cell = nn.RNNCell(input_size, hidden_size, bias=True, nonlinearity='tanh', device=None, dtype=None)
 
-# # Print the weights of cell // y = wx + b
-# print(rnn_cell.weight_ih.shape)  # (128, 300) input2hidden  
-# print(rnn_cell.weight_hh.shape)  # (128, 128) hidden2hidden
-# print(rnn_cell.bias_ih.shape)  # (128,)
-# print(rnn_cell.bias_hh.shape)  # (128,)
+# Print the weights of cell // y = wx + b
+print(rnn_cell.weight_ih.shape)  # (128, 300) input2hidden  
+print(rnn_cell.weight_hh.shape)  # (128, 128) hidden2hidden
+print(rnn_cell.bias_ih.shape)  # (128,)
+print(rnn_cell.bias_hh.shape)  # (128,)
 
 # print('---')
 
-# # Initialize the hidden state of the RNN
-# input_sequences = torch.randn(seq_len, batch_size, input_size) # (10, 5, 12)
-# hidden = torch.zeros(batch_size, hidden_size)  
+# Initialize the hidden state of the RNN
+input_sequences = torch.randn(seq_len, batch_size, input_size) # (10, 5, 12)
+hidden = torch.zeros(batch_size, hidden_size)  
 
 # # Forward pass
 # f = 0
@@ -125,7 +125,6 @@ cell = torch.zeros(batch_size, hidden_size)
 hidden, cell = lstm_cell(input_sequence, (hidden, cell))
 
 print('------------------- Define the LSTM layers -----------------------')
-
 lstm = nn.LSTM(input_size, hidden_size, num_layers)
 
 input_sequence = torch.randn(seq_len, batch_size, input_size)

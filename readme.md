@@ -1,13 +1,54 @@
 # 视频教学代码
 
-> 欢迎关注我的教学视频，通过代码科普AI/神经网络知识。基于Python, Pytorch, 视频首发于b站，
+欢迎关注我的教学科普视频，通过代码详解 CS & AI & 神经网络知识。
 
-- 内容为深度学习相关, 业余自学分享，驱动自己总结复习, 也欢迎交流指正。
+我的AI类课程围绕两个核心：1.数据 2.模型
 
-- 视频追求简洁明了，除了必要的文字和ppt外，主要通过代码理解概念并应用。
+通过掌握:
 
+```
+
+数据分析、可视化、处理
+
+&
+
+模型的原理、设计、调参
+
+```
+
+就等于掌握了打开AI的钥匙，玩转AI不是问题！
+
+- 视频一般发在b站，抖音
+
+    >视频追求简洁明了，除了必要的文字和ppt外，主要通过代码理解概念并应用。
+
+    b站: https://space.bilibili.com/433833512/video
+
+    抖音: https://www.douyin.com/user/MS4wLjABAAAAPN6UupY_5li5pBxsx8i-KTSa6_54Iy_u4wQLQuejnq8
+
+- 文字一般发在CSDN, 公众号
+
+    CSDN: https://blog.csdn.net/disanda?spm=1038.2274.3001.5343
+
+    公众号: https://mp.weixin.qq.com/s/08BmF4RnnwQ-jX5s_ukDUA
+
+
+# 近期课程(2024_6_2)
+
+## RNN系列
+
+
+# 往期课程: 2023以前
+
+## 0.CNN
+
+- 卷积参数:
+
+https://blog.csdn.net/disanda/article/details/105762054#comments_24558196
 
 ## 1.启蒙：课程简介
+
+https://www.bilibili.com/video/BV1V14y1G7wu/?spm_id_from=333.999.0.0
 
 
 ## 2.Attention_Code
