@@ -2,6 +2,8 @@
 
 欢迎关注我的教学科普视频，通过代码详解 CS & AI & 神经网络知识。
 
+## 1. 启蒙: 课程简介
+
 我的AI类课程围绕两个核心：1.数据 2.模型
 
 通过掌握:
@@ -33,32 +35,32 @@
     公众号: https://mp.weixin.qq.com/s/08BmF4RnnwQ-jX5s_ukDUA
 
 
-# 近期课程(2024_6_2)
+## 2 近期课程(2024_6_2)
 
-## RNN系列
+### 2.1 RNN系列
 
 
-# 往期课程: 2023以前
+## 3. 往期课程: 2023以前
 
-## 0.CNN
+### 3.1 CNN
 
 - 卷积参数:
 
 https://blog.csdn.net/disanda/article/details/105762054#comments_24558196
 
-## 1.启蒙：课程简介
+### 3.2 科普简介
 
 https://www.bilibili.com/video/BV1V14y1G7wu/?spm_id_from=333.999.0.0
 
 
-## 2.Attention_Code
+## 3.3 Attention_Code
 
 >包括注意力attention模块，多头注意力multi-head attention，transformer的代码。
 
 【通过代码简介什么是attention, self-attention, multi-head attention以及transformer】 https://www.bilibili.com/video/BV1QD4y177Sf/?share_source=copy_web&vd_source=52e445c3cd34daefba432056cb52d95e
 
 
-## 3.RNN
+## 3.4 RNN
 
 - rnn.py
 
