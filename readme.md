@@ -10,11 +10,7 @@
 
 ```
 
-数据分析、可视化、处理
-
-&
-
-模型的原理、设计、调参
+数据分析、可视化、处理 & 模型的原理、设计、调参
 
 ```
 
@@ -24,15 +20,11 @@
 
     >视频追求简洁明了，除了必要的文字和ppt外，主要通过代码理解概念并应用。
 
-    b站: https://space.bilibili.com/433833512/video
-
-    抖音: https://www.douyin.com/user/MS4wLjABAAAAPN6UupY_5li5pBxsx8i-KTSa6_54Iy_u4wQLQuejnq8
+    [b站](https://space.bilibili.com/433833512/video) & [抖音](https://www.douyin.com/user/MS4wLjABAAAAPN6UupY_5li5pBxsx8i-KTSa6_54Iy_u4wQLQuejnq8)
 
 - 文字一般发在CSDN, 公众号
 
-    CSDN: https://blog.csdn.net/disanda?spm=1038.2274.3001.5343
-
-    公众号: https://mp.weixin.qq.com/s/08BmF4RnnwQ-jX5s_ukDUA
+    [CSDN](https://blog.csdn.net/disanda?spm=1038.2274.3001.5343) & [公众号](https://mp.weixin.qq.com/s/08BmF4RnnwQ-jX5s_ukDUA)
 
 
 ## 2 近期课程(2024_6_2)
@@ -64,7 +56,7 @@ https://www.bilibili.com/video/BV1V14y1G7wu/?spm_id_from=333.999.0.0
 
 >包括注意力attention模块，多头注意力multi-head attention，transformer的代码。
 
-【通过代码简介什么是attention, self-attention, multi-head attention以及transformer】 https://www.bilibili.com/video/BV1QD4y177Sf/?share_source=copy_web&vd_source=52e445c3cd34daefba432056cb52d95e
+[【通过代码简介什么是attention, self-attention, multi-head attention以及transformer】](https://www.bilibili.com/video/BV1QD4y177Sf/?share_source=copy_web&vd_source=52e445c3cd34daefba432056cb52d95e)
 
 
 ## 3.4 RNN
