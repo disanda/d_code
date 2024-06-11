@@ -13,4 +13,6 @@
 
 更多内容参考微信公众号的教程:
 
-![文字教程](https://mp.weixin.qq.com/s/8Xhe0ir7QEWIYmtThqo0ew)
+[文字教程][link]
+
+[link]:https://mp.weixin.qq.com/s/8Xhe0ir7QEWIYmtThqo0ew
