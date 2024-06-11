@@ -39,6 +39,13 @@
 
 ### 2.1 RNN系列
 
+- 天气预测
+
+    代码:[README](./1.Weather_Prediction/readme.md)
+
+- 股票预测
+
+    代码:[README](./2.Stock_Prediction/readme.md)
 
 ## 3. 往期课程: 2023以前
 
