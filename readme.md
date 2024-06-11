@@ -43,16 +43,14 @@
 
 ### 3.1 CNN
 
-- 卷积参数:
-
-https://blog.csdn.net/disanda/article/details/105762054#comments_24558196
+- [卷积参数](https://blog.csdn.net/disanda/article/details/105762054#comments_24558196)
 
 ### 3.2 科普简介
 
-https://www.bilibili.com/video/BV1V14y1G7wu/?spm_id_from=333.999.0.0
+- [神经网络科普](https://www.bilibili.com/video/BV1V14y1G7wu/?spm_id_from=333.999.0.0)
 
 
-## 3.3 Attention_Code
+### 3.3 Attention_Code
 
 >包括注意力attention模块，多头注意力multi-head attention，transformer的代码。
 
