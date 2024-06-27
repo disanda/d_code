@@ -40,4 +40,5 @@ plt.xlabel('Frequency (Hz)')
 plt.ylabel('Phase (radians)')
 
 plt.tight_layout()
+plt.savefig("trumpet_waveform.png")
 plt.show()
