@@ -60,34 +60,36 @@ filter_banks = 20 * numpy.log10(filter_banks)  # 通过log将梅尔组各个三�
 
 filter_banks -= (numpy.mean(filter_banks, axis=0) + 1e-8)
 
+
+
 # Assuming filter_banks is already calculated
-plt.figure(figsize=(10, 6))
-plt.imshow(filter_banks.T, origin='lower', aspect='auto', cmap='jet', interpolation='nearest')
-plt.title('Mel Filter Bank Spectrogram')
-plt.ylabel('Mel Filter Bank')
-plt.xlabel('Time Frame')
-plt.colorbar(format='%+2.0f dB')
-plt.show()
-
-# from scipy.fftpack import dct
-
-# # Apply DCT to the filter banks
-# num_ceps = 12
-# mfcc = dct(filter_banks, type=2, axis=1, norm='ortho')[:, 1:(num_ceps + 1)]
-
-# cep_lifter = 22 # 22-27
-# (nframes, ncoeff) = mfcc.shape
-# n = numpy.arange(ncoeff)
-# lift = 1 + (cep_lifter / 2) * numpy.sin(numpy.pi * n / cep_lifter) # 正弦提升,以弱化更高的 MFCC，提高噪声信号中的语音识别能力。
-# mfcc *= lift  #*
-
-# mfcc -= (numpy.mean(mfcc, axis=0) + 1e-8)
-
-# # Plot the MFCCs
 # plt.figure(figsize=(10, 6))
-# plt.imshow(mfcc.T, origin='lower', aspect='auto', cmap='jet', interpolation='nearest')
-# plt.title('MFCC')
-# plt.ylabel('Cepstral Coefficient')
+# plt.imshow(filter_banks.T, origin='lower', aspect='auto', cmap='jet', interpolation='nearest')
+# plt.title('Mel Filter Bank Spectrogram')
+# plt.ylabel('Mel Filter Bank')
 # plt.xlabel('Time Frame')
 # plt.colorbar(format='%+2.0f dB')
 # plt.show()
+
+from scipy.fftpack import dct
+
+# Apply DCT to the filter banks
+num_ceps = 12
+mfcc = dct(filter_banks, type=2, axis=1, norm='ortho')[:, 1:(num_ceps + 1)]
+
+cep_lifter = 22 # 22-27
+(nframes, ncoeff) = mfcc.shape
+n = numpy.arange(ncoeff)
+lift = 1 + (cep_lifter / 2) * numpy.sin(numpy.pi * n / cep_lifter) # 正弦提升,以弱化更高的 MFCC，提高噪声信号中的语音识别能力。
+mfcc *= lift  #*
+
+mfcc -= (numpy.mean(mfcc, axis=0) + 1e-8)
+
+# Plot the MFCCs
+plt.figure(figsize=(10, 6))
+plt.imshow(mfcc.T, origin='lower', aspect='auto', cmap='jet', interpolation='nearest')
+plt.title('MFCC')
+plt.ylabel('Cepstral Coefficient')
+plt.xlabel('Time Frame')
+plt.colorbar(format='%+2.0f dB')
+plt.show()

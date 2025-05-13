@@ -2,7 +2,13 @@
 
 通过代码详解 CS & AI 技能干货。
 
-## 启蒙: 课程简介
+## News
+
+### 1.NLTK教程代码 2025-5-13
+
+参见文件夹 [4.nltk](./4.nltk/)
+
+## 课程简介
 
 本课程围绕AI两大核心：1.数据 2.模型
 
@@ -20,32 +26,29 @@
 
     [CSDN](https://blog.csdn.net/disanda?spm=1038.2274.3001.5343) & [公众号](https://mp.weixin.qq.com/s/08BmF4RnnwQ-jX5s_ukDUA)
 
-- 视频一般发在b站，抖音
+- 视频一般发在b站 (一些案例case会放到抖音)
 
     >视频追求简洁明了，除了必要的文字和ppt外，主要通过代码理解概念并应用。
 
     [b站](https://space.bilibili.com/433833512/video) & [抖音](https://www.douyin.com/user/MS4wLjABAAAAPN6UupY_5li5pBxsx8i-KTSa6_54Iy_u4wQLQuejnq8)
 
+## Previous 
 
-## 音频与AI模型 (Audio&AI)
-  
+### 3.音频与AI模型 (Audio&AI)
+
   [hungging_face的demo解析](./3.Audio/1_hf_demo/readme.md)
 
   [时域+频域的演示](./3.Audio/2_time_frequency_domain)
 
   更多请看[文件夹](./3.Audio/)
 
-
-
-## Previous 
-
-### RNN系列(2024_6_2)
+### 2.RNN系列(2024_6_2)
 
 - [天气预测](./1.Weather_Prediction/readme.md)
 
 - [股票预测](./2.Stock_Prediction/readme.md)
 
-### 往期代码&课程(2023年之前):
+### 1. 往期代码&课程(2023年之前):
 
 - [神经网络科普](https://www.bilibili.com/video/BV1V14y1G7wu/?spm_id_from=333.999.0.0)
 - [卷积参数](https://blog.csdn.net/disanda/article/details/105762054#comments_24558196)
